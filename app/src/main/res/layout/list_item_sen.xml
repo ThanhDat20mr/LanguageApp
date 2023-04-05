@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtEn"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="15dp"
+        android:text="Hello"></TextView>
+
+    <TextView
+        android:id="@+id/txtVn"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="25dp"
+        android:textSize="10dp"
+        android:text="Hello"></TextView>
+</RelativeLayout>
+

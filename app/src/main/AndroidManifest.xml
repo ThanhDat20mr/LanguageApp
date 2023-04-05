@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinhvien.myrex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar">
+        <activity android:name="Note.note_list" />
+        <activity android:name=".note_updatedelete" />
+        <activity android:name="Ytb.video_vid3" />
+        <activity android:name="Ytb.video_vid2" />
+        <activity android:name="Ytb.video_vid1" />
+        <activity android:name="Note.note_themtu_activity" />
+        <activity android:name="Note.note_activity" />
+        <activity android:name="Activity.video_activity" />
+        <activity android:name="Activity.listen_activity" />
+        <activity android:name="Activity.idioms_activity" />
+        <activity android:name="Activity.grammar_activity" />
+        <activity android:name="Sen.eating_sen" />
+        <activity android:name="Sen.place_sen" />
+        <activity android:name="Sen.entertain_sen" />
+        <activity android:name="Sen.health_sen" />
+        <activity android:name="Sen.job_sen" />
+        <activity android:name="Sen.greeting_sen" />
+        <activity android:name="Activity.samplesentence_activity" />
+        <activity android:name="Activity.dictionary_activity" />
+        <activity android:name="Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
